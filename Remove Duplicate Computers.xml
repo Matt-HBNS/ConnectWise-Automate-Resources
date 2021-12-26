@@ -1,0 +1,39 @@
+﻿<LabTech_Expansion
+	Version="210.263"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>564</ScriptId>
+				<FolderId>13</FolderId>
+				<ScriptName>Remove Duplicate Computers*</ScriptName>
+				<ScriptNotes>Queries LabTech Database for Duplicate Agent Hostname Entries, then Deletes the Older Entry, based on the Last Heartbeat Timestamp.
+
+Matt Pedersen (aka MrMattiPants) - HBNS.NET - v2.0.0 - 20211225</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>0</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEamqR/pjyyUXGjILa4j+kTsjANaQP29tKiUFfDzPANDJytQTfgQY9aQTt5VBzSReEW3b6PbsSgGKQrB8e3t2FmULURh05PCWnQj/h6YCCCJ0QwwUlRc1kLSa4XSFcINCZYP94xDLZ38/Z/8O1P0XaqlJh1otC0zJ+Mco6G6lIaykrJqizXptrpH78AkK4fbTcfZEPVoOEAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWaXXOiMBSG7zvT/5C96FZn6taAYm0to6vWskPVUdvZvWopZLvMILgQpvvzFxDkw5JWGqZQr0xOQgiPJyfnDXTmsqmu8EDCEn94AEBnXbe8ilMd/sOm5LZeqUhTLHAaNEwlU1oijMyIbaQZj5IWMawHu3M6qYbOw85p3BDrNbJVhefaiFWYplTjGr/rNQiRXJO4tlyrc+16i21IcutMCkbxLvDmfBqdtD/cHKPV5il6MvYn4Jd8+5Wte3VBcdsitehDwsRDM4k6m6g3EvVmhIdhYr7uzNf99W19Q8eqbiPXvin7bRNLVJeqd0lQ9FsEXUE6lryHcVqj1SiSkAIBC0PC0ubSwfDzoTjsL4BsLFe26wrfHvp+URg8nMTsmupMMGkVDdmbc9I+dlzLsdyOhZ/3C+FmOF/0bqaVSIdp3/FJ9FAFvTlYl0m9RcnCLlpJxutLIoat+Wg9RTGRZW3f/w+STPyIJJwY+jqwL9QlCm8QM4Or2eQmvNXhgTAeD2fgx0QYg+1xweQla4wuuAQp3GNjV/y/yCWamAMYzSa3U/D9Fwj+nJN1t+venTAegb5h63iDUVWq4OsTvgCwChR75c4wvL132aVr94qdU98/9nbZMHXCqoEv89nYmTgnXtax38LuRAx+emJH1l9NcTYnC2HTeJZdhz1KgTgznj2HzkSSKRNJyLYJKM81w1jlskDZMkFqkdyt66y4borLcSn+1Q0crPuyh/HnQ10RQ/YNIstGmVjCdosAM1yiKUSjtJl3eWCTNjVYtIDXdWiGW30KNT7sATOFO442R6aIHN1MJY2g25aNXWsv2K1z7jR669Zs/M72gl9EgKRBjHTJRrK9NyRjSovEM9YxG1VIXYfkiRXWCecaxDynnoIxhVpEpJAzG1gqVVKY1AZSlyClz22YbOuXukwpZFh8LbnJCI+6LikkvLdkNxkBUpcohQS4W3qTEeV+qJTs+U1GrKUSMORjHE/FpSU4bNpBjhceqZziQOpiJs9Nm8xyO33e+YRs20NTKQ+QhjAK9nrmbbRLJXheOaWNA0gJEO88sGWoSxk2R2AcKRPv90QRWKv7OLZKN3IS1j05HtgrTZWdzRv0npxJgkrPxkZthrBqIqV6XL3IBzN1xdPIc6MiuWUEoENuGZL0Qy3wWX7JByR1DZQnSEgkeR5MOB9S1EVOrqR2CYVMPsCoC5sCh0Lm40IhdflT0FDI5B0KqYufTxsKqeuZDwyF+ZKirlZyPZkt3Mk2Q11/5MqPvCbF3L4SKdV3XK+sx/hhAGVQpXpRwjQJoCh/QMt+xLuQoO5/Kf0f/+2zkjgtAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>69e3d25a-64f0-11ec-a69c-0690734ac78a</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>13</FolderID>
+					<ParentID>0</ParentID>
+					<Name>__Examples</Name>
+					<GUID>3a28e85b-3064-4911-98cf-fd641ca4bc2b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>
